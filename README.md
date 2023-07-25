@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bandgeek.dev
 
-## Getting Started
+### About ME
 
-First, run the development server:
+I have a diverse background that combines my previous studies in psychology with my current expertise in web development. This unique blend of knowledge allows me to approach projects with a deep understanding of human behavior and user experience, resulting in intuitive and engaging web applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Skills
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Front-end Development: I excel in building interactive and responsive user interfaces using modern technologies such as HTML5, CSS3, and JavaScript. React is my go-to framework for creating dynamic web experiences.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Back-end Development: With NodeJS and Express, I construct scalable and efficient server-side applications. I have extensive experience in designing RESTful APIs and integrating them with various databases, including MongoDB.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Database Management: MongoDB is my preferred NoSQL database, and I am well-versed in designing data models, performing CRUD operations, and optimizing database performance.
 
-## Learn More
+- Version Control and Deployment: I am proficient in using Git for version control, ensuring a streamlined collaborative development process. Additionally, I have experience deploying applications to cloud platforms like Heroku and AWS.
 
-To learn more about Next.js, take a look at the following resources:
+### Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Coming Soon!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Interests
 
-## Deploy on Vercel
+- Sports: As a passionate fan of soccer and basketball, I enjoy playing and following these sports in my spare time. Feel free to chat with me about the latest games or share any interesting news!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Classical music is a significant source of inspiration for me. I appreciate the beauty and complexity of orchestral compositions and enjoy attending concerts and exploring different eras and composers.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Video games provide a creative and immersive outlet for me. Whether it's exploring vast virtual worlds or diving into competitive multiplayer, I find joy in the interactive storytelling and technical aspects of game development.
+
+### Contact
+
+- [Check out my portfolio](www.bandgeek.dev)
+- [Find me on LinkedIn](https://www.linkedin.com/in/robinkelsickii/)
+- Add me on discord: bandgeek95
+- And if you want to reach out via email send to littlerobin@bandgeek.dev
