@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import "../components/homePage.css";
+import "../app/styles/homePage.css";
 import Navbar from "./Navbar";
 import Image from "next/image";
 
@@ -53,6 +53,19 @@ const HomePage = () => {
         <div className="quote-text">Loading quote...</div>
       )}
       {quoteData && <div className="quote-author">-{quoteData[0].author}</div>}
+      <div className="greeting">
+        <h1>
+          Hi, I'm <span className="my-name">Robin</span>
+        </h1>
+      </div>
+      <div className="home-text">
+        <p>
+          I am a full stack Web Developer based out of Kentucky and I love
+          soccer, basketball, and classical music. Take a look at my portfolio
+          and join me in breaking the bounds of the digital space. Let’s build
+          something awesome!
+        </p>
+      </div>
     </div>
   );
 };

@@ -8,7 +8,9 @@
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: Row;
+    align-items: center;
     background: rgba(255, 255, 255, 0.35);
   }
 

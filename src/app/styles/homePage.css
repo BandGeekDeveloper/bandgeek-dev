@@ -27,9 +27,10 @@
 
 .quote-text {
   font-weight: 300;
-  width: 50%;
+  width: 35%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .quote-author {
@@ -37,4 +38,21 @@
   width: 50%;
   display: flex;
   justify-content: center;
+  align-content: center;
+}
+
+.greeting {
+  font-weigh: 600;
+}
+
+.my-name {
+  color: #dfbaff;
+}
+
+.home-text {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
