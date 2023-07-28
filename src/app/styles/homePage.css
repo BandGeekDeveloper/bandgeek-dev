@@ -50,9 +50,18 @@
 }
 
 .home-text {
-  width: 35%;
+  width: 75%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  align-content: center;
+}
+
+.home-text p {
+  width: 75%;
+}
+
+.circle-a {
+  height: 75px;
+  width: 75px;
+  background: white;
+  border-radius: 100%;
 }
