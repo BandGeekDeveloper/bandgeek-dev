@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useEffect, useState, } from "react";
+import React, { useEffect, useState } from "react";
 import "../app/styles/homePage.css";
 import Navbar from "./Navbar";
 import Image from "next/image";
-
-const axios = require("axios");
+import axios from "axios";
 
 const HomePage = () => {
   const [quoteData, setQuoteData] = useState(null);
@@ -67,8 +66,7 @@ const HomePage = () => {
         </p>
       </div>
       <div className="link-btns">
-        <div className="circle-a">
-        </div>
+        <div className="circle-a"></div>
       </div>
     </div>
   );
