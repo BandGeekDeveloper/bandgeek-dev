@@ -1,14 +1,9 @@
 "use client";
 
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, } from "react";
 import "../app/styles/homePage.css";
 import Navbar from "./Navbar";
 import Image from "next/image";
-import LottieAnimation from "./LottieAnimation";
-import linkedInAnimation from "../../public/assets/lotties/animatedLinkedIn.json";
-import gitHubAnimation from "../../public/assets/lotties/animatedGithub.json";
-import emailAnimation from "../../public/assets/lotties/animatedEmail.json";
-import discordAnimation from "../../public/assets/lotties/animatedDiscord.json";
 
 const axios = require("axios");
 
@@ -73,7 +68,6 @@ const HomePage = () => {
       </div>
       <div className="link-btns">
         <div className="circle-a">
-          <LottieAnimation animationData={linkedInAnimation} />
         </div>
       </div>
     </div>
