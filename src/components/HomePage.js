@@ -1,6 +1,13 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faDiscord,
+} from "@fortawesome/free-brands-svg-icons";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../app/styles/homePage.css";
 import Navbar from "./Navbar";
 import Image from "next/image";
@@ -66,7 +73,38 @@ const HomePage = () => {
         </p>
       </div>
       <div className="link-btns">
-        <div className="circle-a"></div>
+        <div className="circle">
+          <a href="https://www.linkedin.com/in/robinkelsickii/" target="_blank">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="2xl"
+              style={{ color: "#0077b5" }}
+            />
+          </a>
+        </div>
+        <div className="circle">
+          <a href="https://github.com/BandGeekDeveloper" target="_blank">
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="2xl"
+              style={{ color: "#171515" }}
+            />
+          </a>
+        </div>
+        <div className="circle">
+          <FontAwesomeIcon
+            icon={faDiscord}
+            size="2xl"
+            style={{ color: "#9656ce" }}
+          />
+        </div>
+        <div className="circle">
+          <FontAwesomeIcon
+            icon={faSquareEnvelope}
+            size="2xl"
+            style={{ color: "#000000" }}
+          />
+        </div>
       </div>
     </div>
   );
