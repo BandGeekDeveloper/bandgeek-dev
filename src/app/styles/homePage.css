@@ -50,9 +50,10 @@
 }
 
 .home-text {
-  width: 75%;
+  width: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .home-text p {

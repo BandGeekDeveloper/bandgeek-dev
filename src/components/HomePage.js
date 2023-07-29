@@ -8,6 +8,7 @@ import {
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { ToastContainer, toast } from "react-toastify";
 import "../app/styles/homePage.css";
 import Navbar from "./Navbar";
 import Image from "next/image";
@@ -38,6 +39,46 @@ const HomePage = () => {
 
     return clearInterval(interval);
   }, []);
+
+  let text;
+
+  const copyDiscord = async () => {
+    text = "Bandgeek95";
+
+    try {
+      await navigator.clipboard.writeText(text);
+      // console.log(`${text} has been copied to clipboard`);
+      toast.success(`${text} has been copied to clipboard`, {
+        position: "bottom-right",
+        autoClose: 2000,
+      });
+    } catch (err) {
+      console.error("Failed to copy:", err);
+      toast.error("Failed to copy", {
+        position: "bottom-right",
+        autoClose: 2000,
+      });
+    }
+  };
+
+  const copyEmail = async () => {
+    text = "littlerobin@bandgeek.dev";
+
+    try {
+      await navigator.clipboard.writeText(text);
+      // console.log(`${text} has been copied to clipboard`);
+      toast.success(`${text} has been copied to clipboard`, {
+        position: "bottom-right",
+        autoClose: 2000,
+      });
+    } catch (err) {
+      console.error("Failed to copy:", err);
+      toast.error("Failed to copy", {
+        position: "bottom-right",
+        autoClose: 2000,
+      });
+    }
+  };
 
   //   console.log("API response: ", quoteData[0].author);
 
@@ -92,18 +133,23 @@ const HomePage = () => {
           </a>
         </div>
         <div className="circle">
-          <FontAwesomeIcon
-            icon={faDiscord}
-            size="2xl"
-            style={{ color: "#9656ce" }}
-          />
+          <a onClick={copyDiscord}>
+            <FontAwesomeIcon
+              icon={faDiscord}
+              size="2xl"
+              style={{ color: "#9656ce" }}
+            />
+          </a>
         </div>
         <div className="circle">
-          <FontAwesomeIcon
-            icon={faSquareEnvelope}
-            size="2xl"
-            style={{ color: "#000000" }}
-          />
+          <a onClick={copyEmail}>
+            <FontAwesomeIcon
+              icon={faSquareEnvelope}
+              size="2xl"
+              style={{ color: "#000000" }}
+            />
+            <ToastContainer />
+          </a>
         </div>
       </div>
     </div>
